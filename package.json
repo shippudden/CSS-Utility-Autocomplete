@@ -1,0 +1,66 @@
+{
+  "name": "css-utility-autocomplete",
+  "displayName": "CSS Utility Autocomplete",
+  "description": "Autocomplete for CSS utility classes",
+  "version": "0.0.1",
+  "publisher": "utilitypro",
+  "engines": {
+    "vscode": "^1.95.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onLanguage:html",
+    "onLanguage:javascript",
+    "onLanguage:typescript",
+    "onLanguage:javascriptreact",
+    "onLanguage:typescriptreact"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "cssUtilityAutocomplete.setFramework",
+        "title": "Set CSS Framework"
+      }
+    ],
+    "configuration": {
+      "title": "CSS Utility Autocomplete",
+      "properties": {
+        "cssUtilityAutocomplete.customClasses": {
+          "type": "array",
+          "default": [],
+          "description": "Custom CSS classes to include in autocomplete suggestions"
+        }
+      }
+    }
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "pretest": "npm run compile && npm run lint",
+    "lint": "eslint src",
+    "test": "vscode-test"
+  },
+  "devDependencies": {
+    "@types/axios": "^0.9.36",
+    "@types/lodash": "^4.17.13",
+    "@types/mocha": "^10.0.9",
+    "@types/node": "20.x",
+    "@types/sinon": "^17.0.3",
+    "@types/vscode": "^1.95.0",
+    "@typescript-eslint/eslint-plugin": "^8.10.0",
+    "@typescript-eslint/parser": "^8.7.0",
+    "@vscode/test-cli": "^0.0.10",
+    "@vscode/test-electron": "^2.4.1",
+    "eslint": "^9.13.0",
+    "typescript": "^5.6.3"
+  },
+  "dependencies": {
+    "axios": "^1.7.7",
+    "lodash": "^4.17.21",
+    "sinon": "^19.0.2"
+  }
+}
