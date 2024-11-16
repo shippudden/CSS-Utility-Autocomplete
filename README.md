@@ -96,20 +96,20 @@ We're actively working on resolving these issues. Your feedback and contribution
 If you'd like to contribute to the development of this extension, please feel free to submit issues or pull requests on our GitHub repository.
 
 ## Contributors
-This project was developed as part of the team effort, with the following contributors:
-- [Boluwatife David]: Proposed the CSS Utility Autocomplete extension concept. Led the project, designed the architecture, and implemented all functionality.
-- [Ayomide Saka]
-- [Worlanyo Kwabla]
-- [imajinaut]
-- [iambinabo]
-- [Opeyemi]
-- [Oluwatimileyinfatoye]
-- [Designer Fete]
-- [@stonecold2897]
-- [@Danielle F.]
-- [@Danielle]
-- [@Chinonso Ekoyo] 
-- [@David Wealth]
+This project was developed as part of a team effort, with the following contributors:
+- Boluwatife David: Proposed the CSS Utility Autocomplete extension concept. Led the project, designed the architecture, and implemented all functionality.
+- Ayomide Saka
+- Worlanyo Kwabla
+- imajinaut
+- iambinabo
+- Opeyemi
+- Oluwatimileyinfatoye
+- Designer Fete
+- stonecold2897
+- Danielle F.
+- Danielle
+- Chinonso Ekoyo 
+- @David Wealth
 - [@Hauwa Eniola ]
 
 ## License
